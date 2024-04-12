@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 4126475155
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: map.ilfm
+      Dependencies: {}

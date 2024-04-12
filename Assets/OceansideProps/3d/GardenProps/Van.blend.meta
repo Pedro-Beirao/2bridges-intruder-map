@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: a5506302aa4dbbf4a9776ea8a1336d9e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder
+    100004: Cylinder_001
+    100006: Cylinder_002
+    100008: Cylinder_003
+    100010: Cylinder_004
+    100012: Plane
+    100014: WheelHub
+    100016: WheelHub_001
+    100018: WheelHub_002
+    100020: WheelHub_003
+    100022: WheelTire
+    100024: WheelTire_001
+    100026: WheelTire_002
+    100028: WheelTire_003
+    100030: BackLightsRed
+    100032: BackLightsRedIlluminated
+    100034: BackLightsWhite
+    100036: Hull
+    100038: Windows
+    100040: Windscreen
+    100042: WindscreenFrame
+    100044: BackWheelAxis
+    100046: Cube
+    100048: FrontWheelAxis
+    100050: Muffler
+    100052: Muffler_001
+    100054: Light
+    100056: Light_001
+    100058: LightCircle
+    100060: LightCircle_001
+    100062: Cube_026
+    100064: Van_Root
+    100066: Circle_007
+    400000: //RootNode
+    400002: Cylinder
+    400004: Cylinder_001
+    400006: Cylinder_002
+    400008: Cylinder_003
+    400010: Cylinder_004
+    400012: Plane
+    400014: WheelHub
+    400016: WheelHub_001
+    400018: WheelHub_002
+    400020: WheelHub_003
+    400022: WheelTire
+    400024: WheelTire_001
+    400026: WheelTire_002
+    400028: WheelTire_003
+    400030: BackLightsRed
+    400032: BackLightsRedIlluminated
+    400034: BackLightsWhite
+    400036: Hull
+    400038: Windows
+    400040: Windscreen
+    400042: WindscreenFrame
+    400044: BackWheelAxis
+    400046: Cube
+    400048: FrontWheelAxis
+    400050: Muffler
+    400052: Muffler_001
+    400054: Light
+    400056: Light_001
+    400058: LightCircle
+    400060: LightCircle_001
+    400062: Cube_026
+    400064: Van_Root
+    400066: Circle_007
+    2300000: //RootNode
+    2300002: Cylinder
+    2300004: Cylinder_001
+    2300006: Cylinder_002
+    2300008: Cylinder_003
+    2300010: Cylinder_004
+    2300012: Plane
+    2300014: WheelHub
+    2300016: WheelHub_001
+    2300018: WheelHub_002
+    2300020: WheelHub_003
+    2300022: WheelTire
+    2300024: WheelTire_001
+    2300026: WheelTire_002
+    2300028: WheelTire_003
+    2300030: BackLightsRed
+    2300032: BackLightsRedIlluminated
+    2300034: BackLightsWhite
+    2300036: Hull
+    2300038: Windows
+    2300040: Windscreen
+    2300042: WindscreenFrame
+    2300044: BackWheelAxis
+    2300046: Cube
+    2300048: FrontWheelAxis
+    2300050: Muffler
+    2300052: Muffler_001
+    2300054: Light
+    2300056: Light_001
+    2300058: LightCircle
+    2300060: LightCircle_001
+    2300062: Cube_026
+    2300064: Van_Root
+    2300066: Circle_007
+    3300000: //RootNode
+    3300002: Cylinder
+    3300004: Cylinder_001
+    3300006: Cylinder_002
+    3300008: Cylinder_003
+    3300010: Cylinder_004
+    3300012: Plane
+    3300014: WheelHub
+    3300016: WheelHub_001
+    3300018: WheelHub_002
+    3300020: WheelHub_003
+    3300022: WheelTire
+    3300024: WheelTire_001
+    3300026: WheelTire_002
+    3300028: WheelTire_003
+    3300030: BackLightsRed
+    3300032: BackLightsRedIlluminated
+    3300034: BackLightsWhite
+    3300036: Hull
+    3300038: Windows
+    3300040: Windscreen
+    3300042: WindscreenFrame
+    3300044: BackWheelAxis
+    3300046: Cube
+    3300048: FrontWheelAxis
+    3300050: Muffler
+    3300052: Muffler_001
+    3300054: Light
+    3300056: Light_001
+    3300058: LightCircle
+    3300060: LightCircle_001
+    3300062: Cube_026
+    3300064: Van_Root
+    3300066: Circle_007
+    4300000: Plane
+    4300002: Cylinder_004
+    4300004: Cylinder_003
+    4300006: Cylinder_002
+    4300008: Cylinder_001
+    4300010: Cylinder
+    4300012: WheelHub_003
+    4300014: WheelTire_003
+    4300016: WheelHub_002
+    4300018: WheelTire_002
+    4300020: WheelHub_001
+    4300022: WheelTire_001
+    4300024: WheelHub
+    4300026: WheelTire
+    4300028: BackLightsRed
+    4300030: BackLightsWhite
+    4300032: BackLightsRedIlluminated
+    4300034: Windows
+    4300036: Hull
+    4300038: WindscreenFrame
+    4300040: Windscreen
+    4300042: Muffler_001
+    4300044: Muffler
+    4300046: FrontWheelAxis
+    4300048: BackWheelAxis
+    4300050: Cube
+    4300052: Light_001
+    4300054: LightCircle_001
+    4300056: Light
+    4300058: LightCircle
+    4300060: Cube_026
+    4300062: Van_Root
+    4300064: Circle_007
+    7400000: Default
+    7400002: Drive
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default
+      takeName: Default Take
+      firstFrame: 2
+      lastFrame: 2.0999999
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle_007
+        weight: 1
+      - path: Cube_026
+        weight: 1
+      - path: Van_Root
+        weight: 1
+      - path: Van_Root/BackLightsRed
+        weight: 1
+      - path: Van_Root/BackLightsRedIlluminated
+        weight: 1
+      - path: Van_Root/BackLightsWhite
+        weight: 1
+      - path: Van_Root/BackWheelAxis
+        weight: 1
+      - path: Van_Root/BackWheelAxis/WheelHub_001
+        weight: 1
+      - path: Van_Root/BackWheelAxis/WheelHub_001/WheelTire_001
+        weight: 1
+      - path: Van_Root/BackWheelAxis/WheelHub_002
+        weight: 1
+      - path: Van_Root/BackWheelAxis/WheelHub_002/WheelTire_002
+        weight: 1
+      - path: Van_Root/FrontWheelAxis
+        weight: 1
+      - path: Van_Root/FrontWheelAxis/WheelHub
+        weight: 1
+      - path: Van_Root/FrontWheelAxis/WheelHub/WheelTire
+        weight: 1
+      - path: Van_Root/FrontWheelAxis/WheelHub_003
+        weight: 1
+      - path: Van_Root/FrontWheelAxis/WheelHub_003/WheelTire_003
+        weight: 1
+      - path: Van_Root/Hull
+        weight: 1
+      - path: Van_Root/Light
+        weight: 1
+      - path: Van_Root/Light/LightCircle
+        weight: 1
+      - path: Van_Root/Light_001
+        weight: 1
+      - path: Van_Root/Light_001/LightCircle_001
+        weight: 1
+      - path: Van_Root/Muffler
+        weight: 1
+      - path: Van_Root/Muffler_001
+        weight: 1
+      - path: Van_Root/Windows
+        weight: 1
+      - path: Van_Root/Windscreen
+        weight: 1
+      - path: Van_Root/WindscreenFrame
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Drive
+      takeName: Default Take
+      firstFrame: 4
+      lastFrame: 175
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Circle_007
+        weight: 1
+      - path: Cube_026
+        weight: 1
+      - path: Van_Root
+        weight: 1
+      - path: Van_Root/BackLightsRed
+        weight: 1
+      - path: Van_Root/BackLightsRedIlluminated
+        weight: 1
+      - path: Van_Root/BackLightsWhite
+        weight: 1
+      - path: Van_Root/BackWheelAxis
+        weight: 1
+      - path: Van_Root/BackWheelAxis/WheelHub_001
+        weight: 1
+      - path: Van_Root/BackWheelAxis/WheelHub_001/WheelTire_001
+        weight: 1
+      - path: Van_Root/BackWheelAxis/WheelHub_002
+        weight: 1
+      - path: Van_Root/BackWheelAxis/WheelHub_002/WheelTire_002
+        weight: 1
+      - path: Van_Root/FrontWheelAxis
+        weight: 1
+      - path: Van_Root/FrontWheelAxis/WheelHub
+        weight: 1
+      - path: Van_Root/FrontWheelAxis/WheelHub/WheelTire
+        weight: 1
+      - path: Van_Root/FrontWheelAxis/WheelHub_003
+        weight: 1
+      - path: Van_Root/FrontWheelAxis/WheelHub_003/WheelTire_003
+        weight: 1
+      - path: Van_Root/Hull
+        weight: 1
+      - path: Van_Root/Light
+        weight: 1
+      - path: Van_Root/Light/LightCircle
+        weight: 1
+      - path: Van_Root/Light_001
+        weight: 1
+      - path: Van_Root/Light_001/LightCircle_001
+        weight: 1
+      - path: Van_Root/Muffler
+        weight: 1
+      - path: Van_Root/Muffler_001
+        weight: 1
+      - path: Van_Root/Windows
+        weight: 1
+      - path: Van_Root/Windscreen
+        weight: 1
+      - path: Van_Root/WindscreenFrame
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

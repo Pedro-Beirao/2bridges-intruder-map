@@ -1,0 +1,1 @@
+Some of these textures have been created with photographs from Textures.com. While the textures may be used in your Intruder level, these photographs may not be redistributed by default; please visit www.textures.com for more information.
