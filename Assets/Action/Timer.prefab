@@ -1,0 +1,909 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8590909781805044195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8590909781805044205}
+  - component: {fileID: 8590909781805044204}
+  - component: {fileID: 8590909781805044203}
+  - component: {fileID: 8590909781805044202}
+  - component: {fileID: 8590909781805044201}
+  m_Layer: 0
+  m_Name: Restart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8590909781805044205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909781805044195}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8590909782192634223}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8590909781805044204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909781805044195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf03933200a049e18c71fa1928d945a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerByUse: 0
+  triggerByShoot: 0
+  triggerByExplosion: 0
+  explosionTriggerDistance: 2
+  explosionMustBeDirectHit: 0
+  hp: -1
+  triggerByEnter: 0
+  triggerByRagdollEnter: 0
+  activateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  resetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectsToAnimate:
+  - {fileID: 8590909781805044195}
+  objectsToStop: []
+  animationNames:
+  - RestartTimer
+  objectsToEnable: []
+  objectsToDisable: []
+  randomObjectsToEnable: []
+  doorsToUnlock: []
+  doorsToLock: []
+  customDoorsToUnlock: []
+  customDoorsToLock: []
+  delayTime: 0
+  enabledByDefault: 1
+  canRedo: 1
+  redoTime: 1
+  enabledAfterTime: 0
+  activateAfterTime: 0
+  activatorTeam: 0
+  goal: 0
+  goalMessage: Guards Win!
+  goalWinner: 0
+  localMessage: 
+  allMessage: 
+  possibleTeleportDestinations: []
+--- !u!111 &8590909781805044203
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909781805044195}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: cc552bc4cbc05d347bdb3fb5884468ba, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: cc552bc4cbc05d347bdb3fb5884468ba, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &8590909781805044202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909781805044195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb0277ef045744d198de9a59a261a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockedInertia: 0
+  playAtRoundStart: 0
+--- !u!114 &8590909781805044201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909781805044195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14f1d131eda5485e93dfa18f0ecba3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activators:
+  - {fileID: 8590909782299628624}
+  - {fileID: 8590909783227885519}
+--- !u!1 &8590909781845667705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8590909781845667707}
+  - component: {fileID: 8590909781845667706}
+  m_Layer: 0
+  m_Name: GuardWin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8590909781845667707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909781845667705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8590909782192634223}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8590909781845667706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909781845667705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf03933200a049e18c71fa1928d945a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerByUse: 0
+  triggerByShoot: 0
+  triggerByExplosion: 0
+  explosionTriggerDistance: 2
+  explosionMustBeDirectHit: 0
+  hp: -1
+  triggerByEnter: 0
+  triggerByRagdollEnter: 0
+  activateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  resetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectsToAnimate: []
+  objectsToStop: []
+  animationNames: []
+  objectsToEnable: []
+  objectsToDisable: []
+  randomObjectsToEnable: []
+  doorsToUnlock: []
+  doorsToLock: []
+  customDoorsToUnlock: []
+  customDoorsToLock: []
+  delayTime: 0
+  enabledByDefault: 1
+  canRedo: 0
+  redoTime: 1
+  enabledAfterTime: 0
+  activateAfterTime: 0
+  activatorTeam: 0
+  goal: 1
+  goalMessage: Guards defended the facility!
+  goalWinner: 1
+  localMessage: 
+  allMessage: Guards defended the facility!
+  possibleTeleportDestinations: []
+--- !u!1 &8590909782192634218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8590909782192634223}
+  - component: {fileID: 8590909782192634222}
+  - component: {fileID: 8590909782192634221}
+  - component: {fileID: 8590909782192634220}
+  - component: {fileID: 8590909782192634219}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8590909782192634223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909782192634218}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8590909783570724238}
+  - {fileID: 8590909782299628625}
+  - {fileID: 8590909783227884592}
+  - {fileID: 8590909781805044205}
+  - {fileID: 8590909781845667707}
+  - {fileID: 8590909783559252084}
+  - {fileID: 8590909783586797649}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8590909782192634222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909782192634218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb0277ef045744d198de9a59a261a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockedInertia: 0
+  playAtRoundStart: 0
+--- !u!114 &8590909782192634221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909782192634218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf03933200a049e18c71fa1928d945a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerByUse: 0
+  triggerByShoot: 0
+  triggerByExplosion: 0
+  explosionTriggerDistance: 2
+  explosionMustBeDirectHit: 0
+  hp: -1
+  triggerByEnter: 0
+  triggerByRagdollEnter: 0
+  activateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  resetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectsToAnimate: []
+  objectsToStop: []
+  animationNames: []
+  objectsToEnable: []
+  objectsToDisable: []
+  randomObjectsToEnable: []
+  doorsToUnlock: []
+  doorsToLock: []
+  customDoorsToUnlock: []
+  customDoorsToLock: []
+  delayTime: 0
+  enabledByDefault: 1
+  canRedo: 1
+  redoTime: 1
+  enabledAfterTime: 0
+  activateAfterTime: 0
+  activatorTeam: 0
+  goal: 0
+  goalMessage: Guards Win!
+  goalWinner: 0
+  localMessage: 
+  allMessage: 
+  possibleTeleportDestinations: []
+--- !u!111 &8590909782192634220
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909782192634218}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: c30023a867f0ec340b249bd13786503b, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &8590909782192634219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909782192634218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14f1d131eda5485e93dfa18f0ecba3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activators:
+  - {fileID: 8590909781845667706}
+--- !u!1 &8590909782299628655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8590909782299628625}
+  - component: {fileID: 8590909782299628624}
+  m_Layer: 0
+  m_Name: Stop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8590909782299628625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909782299628655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8590909782192634223}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8590909782299628624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909782299628655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf03933200a049e18c71fa1928d945a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerByUse: 0
+  triggerByShoot: 0
+  triggerByExplosion: 0
+  explosionTriggerDistance: 2
+  explosionMustBeDirectHit: 0
+  hp: -1
+  triggerByEnter: 0
+  triggerByRagdollEnter: 0
+  activateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  resetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectsToAnimate: []
+  objectsToStop:
+  - {fileID: 8590909782192634218}
+  animationNames: []
+  objectsToEnable: []
+  objectsToDisable: []
+  randomObjectsToEnable: []
+  doorsToUnlock: []
+  doorsToLock: []
+  customDoorsToUnlock: []
+  customDoorsToLock: []
+  delayTime: 0
+  enabledByDefault: 1
+  canRedo: 1
+  redoTime: 1
+  enabledAfterTime: 0
+  activateAfterTime: 0
+  activatorTeam: 0
+  goal: 0
+  goalMessage: Guards Win!
+  goalWinner: 0
+  localMessage: 
+  allMessage: 
+  possibleTeleportDestinations: []
+--- !u!1 &8590909783227885518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8590909783227884592}
+  - component: {fileID: 8590909783227885519}
+  m_Layer: 0
+  m_Name: Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8590909783227884592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783227885518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8590909782192634223}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8590909783227885519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783227885518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf03933200a049e18c71fa1928d945a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerByUse: 0
+  triggerByShoot: 0
+  triggerByExplosion: 0
+  explosionTriggerDistance: 2
+  explosionMustBeDirectHit: 0
+  hp: -1
+  triggerByEnter: 0
+  triggerByRagdollEnter: 0
+  activateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  resetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectsToAnimate:
+  - {fileID: 8590909782192634218}
+  objectsToStop: []
+  animationNames:
+  - Countdown
+  objectsToEnable: []
+  objectsToDisable: []
+  randomObjectsToEnable: []
+  doorsToUnlock: []
+  doorsToLock: []
+  customDoorsToUnlock: []
+  customDoorsToLock: []
+  delayTime: 0
+  enabledByDefault: 1
+  canRedo: 1
+  redoTime: 1
+  enabledAfterTime: 0
+  activateAfterTime: 0
+  activatorTeam: 0
+  goal: 0
+  goalMessage: Guards Win!
+  goalWinner: 0
+  localMessage: 
+  allMessage: 
+  possibleTeleportDestinations: []
+--- !u!1 &8590909783559252083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8590909783559252084}
+  - component: {fileID: 8590909783559252090}
+  - component: {fileID: 8590909783559252089}
+  - component: {fileID: 8590909783559252088}
+  - component: {fileID: 8590909783559252086}
+  - component: {fileID: 8590909783559252085}
+  m_Layer: 0
+  m_Name: Initial Start
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8590909783559252084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783559252083}
+  m_LocalRotation: {x: -0, y: -0.43065083, z: -0, w: 0.9025187}
+  m_LocalPosition: {x: -79.41, y: 105.63, z: 51.74}
+  m_LocalScale: {x: 1, y: 15.967991, z: 34.977417}
+  m_Children: []
+  m_Father: {fileID: 8590909782192634223}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: -51.018, z: 0}
+--- !u!33 &8590909783559252090
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783559252083}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &8590909783559252089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783559252083}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &8590909783559252088
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783559252083}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1cc06a366384e4c8d8d5d96bb9c99296, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8590909783559252086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783559252083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc25c0c7c9e740ab87b405731efb3ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8590909783559252085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783559252083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf03933200a049e18c71fa1928d945a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerByUse: 0
+  triggerByShoot: 0
+  triggerByExplosion: 0
+  explosionTriggerDistance: 2
+  explosionMustBeDirectHit: 0
+  hp: -1
+  triggerByEnter: 1
+  triggerByRagdollEnter: 1
+  activateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  resetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectsToAnimate:
+  - {fileID: 8590909782192634218}
+  objectsToStop: []
+  animationNames:
+  - Countdown
+  objectsToEnable: []
+  objectsToDisable: []
+  randomObjectsToEnable: []
+  doorsToUnlock: []
+  doorsToLock: []
+  customDoorsToUnlock: []
+  customDoorsToLock: []
+  delayTime: 0
+  enabledByDefault: 1
+  canRedo: 0
+  redoTime: 1
+  enabledAfterTime: 0
+  activateAfterTime: 0
+  activatorTeam: 2
+  goal: 0
+  goalMessage: Guards Win!
+  goalWinner: 0
+  localMessage: 
+  allMessage: 
+  possibleTeleportDestinations: []
+--- !u!1 &8590909783570724237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8590909783570724238}
+  - component: {fileID: 8590909783570724336}
+  - component: {fileID: 8590909783570724239}
+  m_Layer: 0
+  m_Name: Countdown Clock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8590909783570724238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783570724237}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 55.1, y: 104, z: -126.7}
+  m_LocalScale: {x: 5000, y: 5000, z: 5000}
+  m_Children: []
+  m_Father: {fileID: 8590909782192634223}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!33 &8590909783570724336
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783570724237}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8590909783570724239
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783570724237}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ebc5af872a36a0542931ebee1440b410, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8590909783586797648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8590909783586797649}
+  - component: {fileID: 8590909783586797655}
+  - component: {fileID: 8590909783586797654}
+  - component: {fileID: 8590909783586797653}
+  - component: {fileID: 8590909783586797651}
+  - component: {fileID: 8590909783586797650}
+  m_Layer: 0
+  m_Name: Initial Stop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8590909783586797649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783586797648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.5, y: 97, z: 140.43}
+  m_LocalScale: {x: 33.86077, y: 33.860764, z: 33.860764}
+  m_Children: []
+  m_Father: {fileID: 8590909782192634223}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8590909783586797655
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783586797648}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &8590909783586797654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783586797648}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &8590909783586797653
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783586797648}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1cc06a366384e4c8d8d5d96bb9c99296, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8590909783586797651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783586797648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc25c0c7c9e740ab87b405731efb3ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8590909783586797650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590909783586797648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf03933200a049e18c71fa1928d945a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerByUse: 0
+  triggerByShoot: 0
+  triggerByExplosion: 0
+  explosionTriggerDistance: 2
+  explosionMustBeDirectHit: 0
+  hp: -1
+  triggerByEnter: 1
+  triggerByRagdollEnter: 1
+  activateEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  resetEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  objectsToAnimate: []
+  objectsToStop:
+  - {fileID: 8590909782192634218}
+  animationNames: []
+  objectsToEnable: []
+  objectsToDisable: []
+  randomObjectsToEnable: []
+  doorsToUnlock: []
+  doorsToLock: []
+  customDoorsToUnlock: []
+  customDoorsToLock: []
+  delayTime: 0
+  enabledByDefault: 1
+  canRedo: 0
+  redoTime: 1
+  enabledAfterTime: 0
+  activateAfterTime: 0
+  activatorTeam: 2
+  goal: 0
+  goalMessage: Guards Win!
+  goalWinner: 0
+  localMessage: 
+  allMessage: 
+  possibleTeleportDestinations: []

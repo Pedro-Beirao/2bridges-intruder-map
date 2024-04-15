@@ -4,103 +4,56 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Cheap Vine
-  m_Shader: {fileID: 4800000, guid: 359d22bf1642581478088ccd66faa90a, type: 3}
+  m_Shader: {fileID: 10606, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TexEnvs:
-      data:
-        first:
-          name: _MainTex
-        second:
-          m_Texture: {fileID: 2800000, guid: 42232a4bbc190c4448286721cda934ba, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _BumpMap
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _TranslucencyMap
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _GlossMap
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _ShadowOffset
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 42232a4bbc190c4448286721cda934ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-      data:
-        first:
-          name: _Cutoff
-        second: 0.23214285
-      data:
-        first:
-          name: _Shininess
-        second: 0.078125
-      data:
-        first:
-          name: _Translucency
-        second: 0.73214287
-      data:
-        first:
-          name: _SquashAmount
-        second: 1
-      data:
-        first:
-          name: _TranslucencyViewDependency
-        second: 0.7
-      data:
-        first:
-          name: _ShadowStrength
-        second: 1
-      data:
-        first:
-          name: _Occlusion
-        second: 5.357143
-      data:
-        first:
-          name: _BaseLight
-        second: 0.45714286
-      data:
-        first:
-          name: _AO
-        second: 4.007143
+    - _AO: 4.007143
+    - _BaseLight: 0.45714286
+    - _Cutoff: 0.23214285
+    - _Occlusion: 5.357143
+    - _ShadowStrength: 1
+    - _Shininess: 0.078125
+    - _SquashAmount: 1
+    - _Translucency: 0.73214287
+    - _TranslucencyViewDependency: 0.7
     m_Colors:
-      data:
-        first:
-          name: _Scale
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _TranslucencyColor
-        second: {r: 0.88235295, g: 0.73093903, b: 0.6487889, a: 1}
-      data:
-        first:
-          name: _Ambience
-        second: {r: 0.029411793, g: 0.029411793, b: 0.029411793, a: 1}
+    - _Ambience: {r: 0.029411793, g: 0.029411793, b: 0.029411793, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Scale: {r: 1, g: 1, b: 1, a: 1}
+    - _TranslucencyColor: {r: 0.88235295, g: 0.73093903, b: 0.6487889, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
