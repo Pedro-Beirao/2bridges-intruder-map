@@ -6,4 +6,5 @@ public class CustomPickup : MonoBehaviour
 {
     public ItemProxy itemProxy;
     public GameObject parentObject;
+    public BoxCollider pickupCollider;
 }

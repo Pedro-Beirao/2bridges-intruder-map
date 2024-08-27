@@ -6,7 +6,13 @@ public class QualityMods : MonoBehaviour
 {
 	public float shadowDistance = 300;
 
-	void Awake()
+    public bool forceShadowMaskMode;
+
+    public ShadowmaskMode shadowMaskMode;
+
+    private static QualityMods main;
+
+    void Awake()
 	{
 		QualitySettings.shadowDistance = shadowDistance;
 	}

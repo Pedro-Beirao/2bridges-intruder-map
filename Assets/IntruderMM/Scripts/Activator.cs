@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -38,8 +39,11 @@ public class Activator : MonoBehaviour
 	public GameObject[] objectsToEnable;
 	public GameObject[] objectsToDisable;
 	public GameObject[] randomObjectsToEnable;
+    public string randomObjectsVariableName = "{randomPlace}";
+    public List<string> randomObjectsNames = new List<string>();
+    public bool autoPopulateRandomNames;
 
-	public DoorProxy[] doorsToUnlock;
+    public DoorProxy[] doorsToUnlock;
 	public DoorProxy[] doorsToLock;
 	public CustomDoorProxy[] customDoorsToUnlock;
 	public CustomDoorProxy[] customDoorsToLock;
@@ -70,6 +74,12 @@ public class Activator : MonoBehaviour
 	public float resetDelay = -1.0f;
 	public float allowActivateDelay = 0.0f;
 	public bool resetActivateDelayOnEnable = true;
+    public bool disableMeInThisMode;
+    private bool _loadedMapObjectActiveState;
+    private bool _loadedMapObjectActiveInHierarchyState;
+    private bool _ready;
+    public bool localOnly;
+	public bool DebugMe;
 
 	public void Activate() { }
 }

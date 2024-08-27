@@ -25,8 +25,9 @@ namespace Assets.IntruderMM.Editor
 		static System.Type sceneViewToolbar = typeof(UnityEditor.Editor).Assembly.GetType("UnityEditor.SceneView"); 
 
 		public static Texture2D intruderLogo;
+        public static Texture2D expandedLogo;
 
-		private static Texture2D buttonTex;
+        private static Texture2D buttonTex;
 		private static Texture2D buttonHoverTex;
 		private static Texture2D buttonSelectTex;
 
@@ -84,7 +85,7 @@ namespace Assets.IntruderMM.Editor
 
 			intruderLogo = AssetDatabase.LoadAssetAtPath<Texture2D>(EditorToolsPath() + "GUI/title.png");
 
-			buttonTex = AssetDatabase.LoadAssetAtPath<Texture2D>(EditorToolsPath() + "GUI/button.png");
+            buttonTex = AssetDatabase.LoadAssetAtPath<Texture2D>(EditorToolsPath() + "GUI/button.png");
 			buttonHoverTex = AssetDatabase.LoadAssetAtPath<Texture2D>(EditorToolsPath() + "GUI/buttonHover.png");
 			buttonSelectTex = AssetDatabase.LoadAssetAtPath<Texture2D>(EditorToolsPath() + "GUI/buttonSelect.png");
 

@@ -11,5 +11,8 @@ public class DoorProxy : MonoBehaviour
 	public bool canLockPick = true;
 	public int maxDoorAngle = 150;
 
-	public GameObject partnerDoor;
+    [Range(0f, 1f)]
+    public float startOpenPercent;
+
+    public GameObject partnerDoor;
 }

@@ -29,16 +29,18 @@ public enum PickupType
 public class PickupProxy : MonoBehaviour
 {
 	public ItemProxy pickupItem;
-	public PickupType pickupType = PickupType.Custom;
+    [Header("!!!WILL BE DEPRECATED AND OLD WHEN 2.3 IS OUT!!!")]
+    public PickupType pickupType = PickupType.Custom;
 
 	public string pickupMessage = ""; //Custom message for the pick up if you change things about it, like the ammo amount, to avoid default messages
 	public int addedAmmo = -1; //Ammo added to the weapons ammo stash
 	public int loadedAmmo = -1; //Ammo loaded in the weapon if you pick it up, use only if you want to replace the current magazine in the weapon
 	public float respawnTime = -1; //Pick up will respawn after this amount of time
 	public Activator activatorToActivate; //Activate an activator when you pick up this pick up
-	private MeshFilter meshFilter;
+    public ActivatorTeam teamsAllowed; //Team Allowed to pickup
+    private MeshFilter meshFilter;
 
-	private void SetMeshFilter()
+    private void SetMeshFilter()
 	{
 		if (meshFilter != null)
 		{

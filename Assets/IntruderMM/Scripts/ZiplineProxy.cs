@@ -10,4 +10,5 @@ public class ZiplineProxy : MonoBehaviour
 
 	public int numberOfVertices = 2;
 	public float maxGravityDangle = 0.0f;
+    public float forceDismountAtPercent = 0.99f;
 }

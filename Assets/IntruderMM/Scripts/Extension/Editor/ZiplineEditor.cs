@@ -42,7 +42,8 @@ namespace Assets.IntruderMM.Editor
 						EditorGUILayout.PropertyField(serializedObject.FindProperty("zipSpeed"), new GUIContent("Zipline Travel Speed", "How fast you travel down the zipline"));
 						EditorGUILayout.PropertyField(serializedObject.FindProperty("numberOfVertices"), new GUIContent("Number of Vertices", "The ammount of vertices that gets generated on the rope, the more vertices the more dangly you can have the zipline but with higher performance cost"));
 						EditorGUILayout.PropertyField(serializedObject.FindProperty("maxGravityDangle"), new GUIContent("Max Gravity Dangle", "How much the zipline dips"));
-					}
+                        EditorGUILayout.PropertyField(serializedObject.FindProperty("forceDismountAtPercent"), new GUIContent("Force Dismount", "how fast until you slip and die"));
+                    }
 					EditorGUILayout.EndVertical();
 					break;
 

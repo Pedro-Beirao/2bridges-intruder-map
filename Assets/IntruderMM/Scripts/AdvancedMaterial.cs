@@ -12,4 +12,6 @@ public class AdvancedMaterial : MonoBehaviour
 	public bool shouldChunk;
 	public bool transferForce;
 	public float transferForceAmount = .005f;
+	public bool noDecals;
+	public bool allowColliderSetting;
 }

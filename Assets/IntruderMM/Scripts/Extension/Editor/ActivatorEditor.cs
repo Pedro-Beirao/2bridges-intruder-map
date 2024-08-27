@@ -167,8 +167,18 @@ namespace Assets.IntruderMM.Editor
 					EditorGUI.indentLevel = 0;
 					EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(Activator.dontHaveAllItemsMessage)), new GUIContent("Don't have items message", "Don't have items message"), true);
 					EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(Activator.useUpItems)), new GUIContent("Use up items", "Use up items"), true);
-					EditorGUILayout.EndVertical();
-					break;
+                    EditorGUILayout.EndVertical();
+
+                    GUILayout.BeginVertical("Box");
+                    EditorGUILayout.LabelField("Experimental Options", EditorStyles.boldLabel);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(Activator.localOnly)), new GUIContent("Clientsided Activator / LocalMe", "Display only on your player's screen."), true);
+					GUI.enabled = false;
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(Activator.disableMeInThisMode)), new GUIContent("DisableMeInThisMode", " Don't Know what this does. "), true);
+                    EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(Activator.DebugMe)), new GUIContent("Debug Me", "Doesn't Work."), true);
+					GUI.enabled = true;
+                    EditorGUILayout.EndVertical();
+                    EditorGUILayout.HelpBox("DebugMe doesn't work, and I dont know what DisableMe does.", MessageType.Info);
+                    break;
 				case 3:
 					Preferences.InspectorGUIPreferences();
 					break;
