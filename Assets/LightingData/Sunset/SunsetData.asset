@@ -22,8 +22,8 @@ MonoBehaviour:
   ambientSkyColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 0}
   ambientEquatorColor: {r: 0, g: 0, b: 0, a: 0}
   ambientGroundColor: {r: 0, g: 0, b: 0, a: 0}
-  ambientIntensity: 0
-  ambientLight: {r: 0, g: 0, b: 0, a: 0}
+  ambientIntensity: 0.2
+  ambientLight: {r: 0.54901963, g: 0.54901963, b: 0.54901963, a: 0}
   subtractiveShadowColor: {r: 0, g: 0, b: 0, a: 0}
   skybox: {fileID: 2100000, guid: 09f8dd22632bf466abe788f41cd33080, type: 2}
   sun: {fileID: 7383376572260467767, guid: f0636403b1cb842c79156caec556b482, type: 3}
